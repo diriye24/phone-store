@@ -1,0 +1,53 @@
+.card {
+    border-color: transparent;
+    transition: all .3s linear;
+}
+
+.card:hover {
+    border: .04rem solid rgba(0,0,0,.2);
+    box-shadow: 2px 2px 5px 0px rgba(0,0,0,.2);
+}
+
+.card-footer {
+    background: transparent;
+    border-top: transparent;
+    transition: all .3s linear;
+}
+
+.card-footer:hover {
+    background: rgb(228, 226, 226);
+}
+
+.img-container {
+    position: relative;
+    overflow: hidden;
+}
+
+.card-img-top {
+    transition: all .4s linear !important;
+}
+
+.img-container:hover .card-img-top {
+    transform: scale(1.2);
+}
+
+.cart-btn {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    padding: .2rem .4rem;
+    background: var(--lightBlue);
+    border: none;
+    color: var(--mainWhite);
+    font-size: 1.2rem;
+    border-radius: .5rem 0 0 0;
+    cursor: pointer;
+}
+
+.cart-btn:focus {
+    outline: none;
+}
+
+.cart-btn:hover {
+    color: black;
+}

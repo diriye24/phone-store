@@ -1,0 +1,49 @@
+.button {
+    border-radius: 5px;
+    color: #fff;
+    font-size: 1.4rem;
+}
+
+.button:focus {
+    outline: none;
+}
+
+.nav-items {
+    margin-left: 50px;
+    letter-spacing: 1px;
+}
+
+/* 435 ========================================= */
+@media only screen and (max-width: 435px) {
+    .nav-items {
+        margin-left: 15px;
+    }
+
+    .button {
+        font-size: 1.3rem;
+    }
+}
+
+
+/* 375 ============================================== */
+@media only screen and (max-width: 375px) {
+    .nav-items {
+        margin-left: 12px;
+    }
+
+    .button {
+        font-size: 1.2rem;
+    }
+}
+
+
+/* 355 =============================================== */
+@media only screen and (max-width: 355px) {
+    .nav-items {
+        margin-left: 10px;
+    }
+
+    .button {
+        font-size: 1.1rem;
+    }
+}

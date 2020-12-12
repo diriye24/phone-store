@@ -1,0 +1,54 @@
+@media only screen and (max-width: 800px) {
+    .details-title {
+        font-size: 4rem;
+    }
+}
+
+
+@media only screen and (max-width: 500px) {
+    .model {
+    font-size: 1.6rem;
+    }
+
+    .details-title {
+        font-size: 2.4rem;
+    }
+}
+
+
+@media only screen and (max-width: 390px) {
+    .model {
+    font-size: 1.6rem;
+    }
+
+    .details-title {
+        font-size: 2.2rem;
+    }
+
+    .made-text {
+        font-size: 1.3rem;
+    }
+
+    .company {
+        font-size: 1.3rem;
+    }
+}
+
+
+@media only screen and (max-width: 340px) {
+    .model {
+    font-size: 1.3rem;
+    }
+
+    .details-title {
+        font-size: 1.8rem;
+    }
+
+    .made-text {
+        font-size: 1.1rem;
+    }
+
+    .company {
+        font-size: 1.1rem;
+    }
+}
